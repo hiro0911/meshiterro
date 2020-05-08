@@ -8,7 +8,7 @@ class PostImagesController < ApplicationController
 		if @post_image.save
 			redirect_to post_images_path
 		else
-			render:new
+			render :new
 		end
 	end
 	def index
